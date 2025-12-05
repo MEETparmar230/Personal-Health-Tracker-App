@@ -1,32 +1,5 @@
-# Personal Health Tracker (Expo React Native)
+# 📱 FitTrack – Personal Health Tracker App
 
-This repository scaffold implements the **Personal Health Tracker App** for the internship assignment. It uses **Expo** (managed workflow), **React Navigation**, and **AsyncStorage** to persist activities locally. The app contains: Welcome, Dashboard, Log Activity, and History screens.
+A simple and intuitive React Native + Expo application that helps users track their daily water intake, steps walked, and sleep hours, with activity history stored locally using AsyncStorage.
 
----
-
-## Project structure
-
-```
-personal-health-tracker-expo/
-├─ App.js
-├─ app.json
-├─ package.json
-├─ README.md
-└─ src/
-   ├─ navigation/
-   │  └─ StackNavigator.js
-   ├─ screens/
-   │  ├─ WelcomeScreen.js
-   │  ├─ DashboardScreen.js
-   │  ├─ LogActivityScreen.js
-   │  └─ HistoryScreen.js
-   ├─ components/
-   │  └─ SummaryCard.js
-   ├─ store/
-   │  └─ ActivitiesContext.js
-   └─ utils/
-      └─ storage.js
-```
-
----
-
+This project was built as part of a React Native internship assignment.
