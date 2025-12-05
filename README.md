@@ -7,7 +7,7 @@ This project was built as part of a React Native internship assignment.
 
 You can download and test the app here:
 
-👉 https://expo.dev/accounts/meet2306/projects/personal-health-tracker/builds/168ca291-5da1-4451-bb00-f80119005979
+👉 https://expo.dev/accounts/meet2306/projects/personal-health-tracker/builds/867382db-b216-417b-8573-4c152ba0aaef
 
 ---
 
