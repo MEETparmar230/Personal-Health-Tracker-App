@@ -38,6 +38,7 @@ export default function LogActivity({ navigation }) {
             <Text style={{ marginTop: 15 }}>Activity Type</Text>
             <TextInput
                 placeholder="water | steps | sleep"
+                placeholderTextColor="#999"
                 value={type}
                 onChangeText={setType}
                 style={{ borderWidth: 1, padding: 10, borderRadius: 10, marginVertical: 8 }}
@@ -47,6 +48,7 @@ export default function LogActivity({ navigation }) {
             <Text>Value</Text>
             <TextInput
                 placeholder="e.g. 4"
+                placeholderTextColor="#999"
                 keyboardType="numeric"
                 value={value}
                 onChangeText={setValue}
@@ -57,6 +59,7 @@ export default function LogActivity({ navigation }) {
             <Text>Notes (optional)</Text>
             <TextInput
                 value={notes}
+                placeholderTextColor="#999"
                 onChangeText={setNotes}
                 style={{ borderWidth: 1, padding: 10, borderRadius: 10, marginVertical: 8 }}
             />

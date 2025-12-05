@@ -1,11 +1,13 @@
 import { View, Text, TouchableOpacity } from 'react-native';
 import { useState, useEffect } from 'react';
 import { getActivitiesLast24Hours } from '../utils/storage';
+import { useIsFocused } from '@react-navigation/native';
 
 
 export default function Dashboard({ navigation }) {
     const [summary, setSummary] = useState({ water: 0, steps: 0, sleep: 0 });
 
+const isFocused = useIsFocused();
 
     useEffect(() => {
         async function load() {
@@ -15,7 +17,7 @@ export default function Dashboard({ navigation }) {
             setSummary(sum);
         }
         load();
-    }, []);
+    }, [isFocused]);
 
 
     const today = new Date().toDateString();
