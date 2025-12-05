@@ -7,6 +7,23 @@ This project was built as part of a React Native internship assignment.
 ---
 
 
+## 📱 Screenshots
+
+### Onboarding Screen
+<img src="./screenshots/onBoarding.png" width="300" />
+
+### Dashboard Screen
+<img src="./screenshots/dashboard.png" width="300" />
+
+### LogActivity Screen
+<img src="./screenshots/Activities.png" width="300" />
+
+### History Screen
+<img src="./screenshots/history.png" width="300" />
+
+---
+
+
 ## 🚀 Features
 
 ### Onboarding Screen
